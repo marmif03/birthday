@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card" id="birthdayCard">
+    <h1>Happy Birthday Pookie !!</h1>
+    <img src="luca.jpg" alt="Birthday Artwork">
+
+    <p id="message" class="hidden">
+        Dear LuLu, This is the first year we’re spending your birthday apart, so I wanted to do something a little different and I really hope you like the artwork. And if you’re wondering about the bee, it’s because it will always remind me of you. Remember when we got kicked out of English class and you got stung? You tried to play it off so cool, but I know you were scared out of your mind. That moment has stuck with me because it’s when I felt like we really started getting closer.
+        I know this past year wasn’t the easiest for us, half the time we were fighting, but I don’t want this card to be about that. Because alongside the bad, there were so many good moments too. It wasn’t always the way I wished, but in a way, it gave our friendship a new beginning. And honestly, I’m so glad you’re my friend. You’re the kind of friend who would pick up my call at 5am without hesitation, and that means the world to me. What matters is that we really care about each other. You’re not just my friend, you’re someone I love having in my life in every way that counts.
+        I don’t always say it out loud, but I’m grateful for you, for every single way you’ve been there through different parts of my life. 
+        By the time you’re reading this, I hope things have changed for the better, that you’ve made your decision and found some peace. But even if not, I’m glad I made this for you, because you deserve to be reminded of how amazing you are. You’re smart, kind-hearted, and yeah, handsome too (big nose and all, which I definitely exaggerated in the artwork ).
+        I know I can be harsh sometimes, and I’m really sorry for that. I hope you know I only feel this deeply because I care. We’ve both been through hurt, and I think that’s why we understand each other so well. You’ve made me laugh when I didn’t want to, challenged me when I needed it, and loved me even when I was impossible. I can’t imagine going through these years without you.
+        I miss you like crazy… though sometimes I don’t, because space was something I needed too. But through it all, I wouldn’t trade you for anything. I really hope 21 gives you all the love you deserve and fucking put your socks up. Please don't stick to what your head tells you, and that you aren't alone. You are made to live the world how you want it to be. Don't let anyone tell you otherwise. If we do end up together I will make sure of that, & will take care of you much more. Also, Juve Merda. From, Milfsudddd. 
+    </p>
+  </div>
+
+  <script>
+    const card = document.getElementById("birthdayCard");
+    const message = document.getElementById("message");
+
+    card.addEventListener("click", () => {
+      message.classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>
